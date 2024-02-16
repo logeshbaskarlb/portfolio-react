@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; 
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +39,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro-container {
+  height: 100vh; /* Set the height as needed */
+  position: relative;
 }
