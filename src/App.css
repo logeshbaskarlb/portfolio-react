@@ -41,7 +41,10 @@ body {
   }
 }
 
-.intro-container {
-  height: 100vh; /* Set the height as needed */
-  position: relative;
+.color{
+  background-color:#0A192F ;
+  color: white;
 }
+/* 
+//#0A192F 
+*/

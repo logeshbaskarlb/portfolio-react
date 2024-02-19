@@ -19,7 +19,7 @@ function BoxComponent({ title, description, image, demoLink, codeLink }) {
           </a>
           <a
             href={codeLink}
-            className="btn btn-info"
+            className="btn btn-success"
             target="_blank"
             rel="noopener noreferrer"
           >
