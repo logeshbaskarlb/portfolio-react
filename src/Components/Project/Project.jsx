@@ -7,6 +7,7 @@ import todo from "./Image/TODO.png";
 import login from "./Image/Login.png";
 import Food from "./Image/Food.png";
 import Ecommerce from "./Image/E-commerce.png"
+import weather2 from "./Image/Weather2.png"
 
 const projects = [
   {
@@ -55,14 +56,22 @@ const projects = [
   },
   {
     id: 6,
+    title: "Weather forecast Apllication 2.0",
+    description: "Here you can see all countries weather by search convert to celsius and fahrenheit",
+    image: weather,
+    demoLink: "https://weathe-app-forecast.netlify.app/",
+    codeLink: "https://github.com/logeshbaskarlb/weather-app-forecast",
+  },
+  {
+    id: 7,
     title: "Weather application",
     description: "Here you can see all countries weather",
-    image: weather,
+    image: weather2,
     demoLink: "https://weather-checker1.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/Weather-Project",
   },
   {
-    id: 7,
+    id: 8,
     title: "Random joke application",
     description: "Here you can see all random jokes",
     image: joke,
