@@ -7,7 +7,7 @@ import todo from "./Image/TODO.png";
 import login from "./Image/Login.png";
 import Food from "./Image/Food.png";
 import Ecommerce from "./Image/E-commerce.png"
-import weather2 from "./Image/Weather2.png"
+import weather2 from "./Image/weather2.png"
 
 const projects = [
   {

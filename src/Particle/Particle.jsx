@@ -17,7 +17,6 @@ const Particle = ({ shouldRender }) => {
 }, []);
 
 const particlesLoaded = (container) => {
-    console.log(container);
 };
   return (
     <>
