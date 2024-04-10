@@ -1,13 +1,15 @@
 import React from "react";
 import ProjectCard from "./BoxComponent";
-import portfolio from "./Image/Portfolio.png";
-import weather from "./Image/Weather.png";
-import joke from "./Image/Joke.png";
-import todo from "./Image/TODO.png";
-import login from "./Image/Login.png";
-import Food from "./Image/Food.png";
-import Ecommerce from "./Image/E-commerce.png"
-import weather2 from "./Image/weather2.png"
+import {
+  portfolio,
+  weather,
+  joke,
+  todo,
+  login,
+  Food,
+  Ecommerce,
+  weather2,
+} from "./Image";
 
 const projects = [
   {
@@ -57,7 +59,8 @@ const projects = [
   {
     id: 6,
     title: "Weather forecast Apllication 2.0",
-    description: "Here you can see all countries weather by search convert to celsius and fahrenheit",
+    description:
+      "Here you can see all countries weather by search convert to celsius and fahrenheit",
     image: weather2,
     demoLink: "https://weathe-app-forecast.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/weather-app-forecast",
