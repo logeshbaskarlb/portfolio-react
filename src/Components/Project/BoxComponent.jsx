@@ -1,20 +1,33 @@
 import React from "react";
 import "./Project.css";
 
-function BoxComponent({ title, description, image, demoLink, codeLink }) {
+function BoxComponent({ title, description,technology, image, demoLink, codeLink }) {
   return (
-    <div className="project-card ">
-      <img src={image} alt={title} className="project-image" />
-      <div className="project-details">
-        <h3>{title}</h3>
+    <div className="bg-black project pt-2 rounded">
+    <div className="project-card bg-black">
+      <img 
+      src={image} 
+      alt={title} 
+      className="project-image" />
+       </div>
+      <div className="bg-black">
+        <h3 className="text-danger text-center">{title}</h3>
         <p>{description}</p>
-        <div className="project-links">
+       <p>
+         <h6 className="text-danger text-center">
+          Technologies : {" "}
+          </h6>
+         <span className="text-center tech">
+           {technology}
+          </span>
+        </p>
+        <div className="project-links d-flex justify-content-around ">
           <a
             href={demoLink}
             className="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
-          >
+            >
             Demo
           </a>
           <a
@@ -22,11 +35,12 @@ function BoxComponent({ title, description, image, demoLink, codeLink }) {
             className="btn btn-success"
             target="_blank"
             rel="noopener noreferrer"
-          >
+            >
             Code
           </a>
         </div>
       </div>
+   
     </div>
   );
 }

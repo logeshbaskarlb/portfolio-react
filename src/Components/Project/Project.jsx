@@ -18,6 +18,7 @@ const projects = [
     description:
       "Here you can enter your data and get portfolio in just 5 mins and also export your portfolio to PDF .",
     image: portfolio,
+    technology: "React Js, TailwindCSS, Ant design, MongoDB , Express JS ",
     demoLink: "https://jocular-torte-0b2695.netlify.app",
     codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
   },
@@ -27,6 +28,7 @@ const projects = [
     description:
       "Here you can get data for  food recipe app and search by name or ingredients.",
     image: Food,
+    technology: "React Js, TailwindCSS,",
     demoLink: "https://astonishing-medovik-4256ae.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/Food-recipe",
   },
@@ -36,6 +38,7 @@ const projects = [
     description:
       "Here you can select product , add to your cart and total amount will be shown in the header section.",
     image: Ecommerce,
+    technology: "React Js, Bootstrap, Redux",
     demoLink: "https://timely-moonbeam-0dc073.netlify.app/  ",
     codeLink: "https://github.com/logeshbaskarlb/reducer-task",
   },
@@ -44,6 +47,7 @@ const projects = [
     title: "TODO application ",
     description: "Here You can Add, Remove and Custom your Applications",
     image: todo,
+    technology: "React Js, Bootstrap, Context API",
     demoLink: "https://master--animated-syrniki-e9d220.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/library-task",
   },
@@ -53,6 +57,7 @@ const projects = [
     description:
       "Here You can Register and login , If you forget the password you can click forgot password, link be sent to your mail and you can rest password",
     image: login,
+    technology: "React Js, Bootstrap, Redux , MongoDB , Express Js , Node JS",
     demoLink: "https://master--dapper-otter-b823ba.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/password-rest-flow-fe",
   },
@@ -60,8 +65,9 @@ const projects = [
     id: 6,
     title: "Weather forecast Apllication 2.0",
     description:
-      "Here you can see all countries weather by search convert to celsius and fahrenheit",
+      "Here you can see all countries weather by search and convert them to celsius and fahrenheit",
     image: weather2,
+    technology: "React Js, TailwindCSS , Weather API",
     demoLink: "https://weathe-app-forecast.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/weather-app-forecast",
   },
@@ -70,6 +76,7 @@ const projects = [
     title: "Weather application",
     description: "Here you can see all countries weather",
     image: weather,
+    technology: "React Js, Bootstrap, Weathe API",
     demoLink: "https://weather-checker1.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/Weather-Project",
   },
@@ -78,11 +85,12 @@ const projects = [
     title: "Random joke application",
     description: "Here you can see all random jokes",
     image: joke,
+    technology: "HTML , CSS , JavaScript ",
     demoLink: "https://sparkling-mandazi-27c2a6.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/Joke-API",
   },
 
-  // Add more cards as needed
+
 ];
 
 const Project = () => {
@@ -93,7 +101,7 @@ const Project = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <h2 className="text-center mb-4">My Projects</h2>
+        <h2 className="text-center mb-4 text-danger">My Projects</h2>
         <div className="row row-cols-1  row-cols-md-2 row-cols-lg-3  g-4">
           {projects.map((project, index) => (
             <div key={index} className="col">

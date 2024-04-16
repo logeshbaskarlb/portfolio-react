@@ -137,7 +137,7 @@ function ProfessionalSkills() {
   ];
   return (
     <div className="Profentire m-0 p-0" id="skills">
-      <h1 className="text-center">Skills & Tools</h1>
+      <h1 className="text-center text-danger">Skills & Tools</h1>
       <div
         style={{
           width: "100vw",
@@ -148,7 +148,7 @@ function ProfessionalSkills() {
       >
         <div style={{ width: "100%" }}>
           <Paper elevation={3}>
-            <h4 className="text-align-left d-flex p-3">
+            <h4 className="text-align-left d-flex p-3 ">
               Professional Skillset :
             </h4>
             <div className="d-flex flex-wrap px-5 cardAlign " data-aos="fade-up" data-aos-duration="1000">
