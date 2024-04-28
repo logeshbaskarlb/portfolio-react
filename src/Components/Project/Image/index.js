@@ -6,5 +6,6 @@ export { default as portfolio} from "./Portfolio.png"
 export { default as joke} from "./Joke.png"
 export { default as weather} from "./Weather.png"
 export { default as todo} from "./TODO.png"
+export { default as blog} from "./blog.png"
 
 

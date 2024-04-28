@@ -24,6 +24,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "Blogi fy!",
+    description:
+      "You can share your blog or thoughts here",
+    image: portfolio,
+    technology: "React Js, MUI , MongoDB , Express JS, Node JS",
+    demoLink: "https://blog-mern-stack-project.netlify.app",
+    codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
+  },
+  {
+    id: 3,
     title: "Food recipes",
     description:
       "Here you can get data for  food recipe app and search by name or ingredients.",
@@ -33,7 +43,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/Food-recipe",
   },
   {
-    id: 3,
+    id: 4,
     title: "Fruits store(E-commerce style)",
     description:
       "Here you can select product , add to your cart and total amount will be shown in the header section.",
@@ -43,7 +53,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/reducer-task",
   },
   {
-    id: 4,
+    id: 5,
     title: "TODO application ",
     description: "Here You can Add, Remove and Custom your Applications",
     image: todo,
@@ -52,7 +62,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/library-task",
   },
   {
-    id: 5,
+    id: 6,
     title: "Password reset authentication",
     description:
       "Here You can Register and login , If you forget the password you can click forgot password, link be sent to your mail and you can rest password",
@@ -62,7 +72,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/password-rest-flow-fe",
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather forecast Apllication 2.0",
     description:
       "Here you can see all countries weather by search and convert them to celsius and fahrenheit",
@@ -72,7 +82,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/weather-app-forecast",
   },
   {
-    id: 7,
+    id: 8,
     title: "Weather application",
     description: "Here you can see all countries weather",
     image: weather,
@@ -81,7 +91,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/Weather-Project",
   },
   {
-    id: 8,
+    id: 9,
     title: "Random joke application",
     description: "Here you can see all random jokes",
     image: joke,
