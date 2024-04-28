@@ -9,6 +9,7 @@ import {
   Food,
   Ecommerce,
   weather2,
+  blog
 } from "./Image";
 
 const projects = [
@@ -27,7 +28,7 @@ const projects = [
     title: "Blogi fy!",
     description:
       "You can share your blog or thoughts here",
-    image: portfolio,
+    image: blog,
     technology: "React Js, MUI , MongoDB , Express JS, Node JS",
     demoLink: "https://blog-mern-stack-project.netlify.app",
     codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
