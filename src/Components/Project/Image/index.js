@@ -7,5 +7,7 @@ export { default as joke} from "./Joke.png"
 export { default as weather} from "./Weather.png"
 export { default as todo} from "./TODO.png"
 export { default as blog} from "./blog.png"
+export { default as store} from "./store.png"
+export { default as Gmail} from "./Gmail.png"
 
 

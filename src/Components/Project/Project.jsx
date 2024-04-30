@@ -9,7 +9,9 @@ import {
   Food,
   Ecommerce,
   weather2,
-  blog
+  blog,
+  store,
+  Gmail
 } from "./Image";
 
 const projects = [
@@ -25,6 +27,26 @@ const projects = [
   },
   {
     id: 2,
+    title: "G-Mail Clone",
+    description:
+      "This project aims to replicate the basic functionalities of Gmail, providing a platform for users to send, receive, organize, and manage emails.",
+    image: Gmail,
+    technology: "React Js, Bootstrap , MongoDB , Express JS, Node JS",
+    demoLink: "https://gmail-clone-basic.netlify.app/",
+    codeLink: "https://github.com/logeshbaskarlb/Gmail-Clone-FrontEnd-master",
+  },
+  {
+    id: 3,
+    title: "@Special Person E-Commerce",
+    description:
+      "This application enables users to explore and purchase prosthetic products conveniently online.",
+    image: store,
+    technology: "React Js, Redux , MongoDB , Express JS, Node JS, STRIPE",
+    demoLink: "https://github.com/logeshbaskarlb/frontend-main",
+    codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
+  },
+  {
+    id: 4,
     title: "Blogi fy!",
     description:
       "You can share your blog or thoughts here",
@@ -34,7 +56,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
   },
   {
-    id: 3,
+    id: 5,
     title: "Food recipes",
     description:
       "Here you can get data for  food recipe app and search by name or ingredients.",
@@ -44,7 +66,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/Food-recipe",
   },
   {
-    id: 4,
+    id: 6,
     title: "Fruits store(E-commerce style)",
     description:
       "Here you can select product , add to your cart and total amount will be shown in the header section.",
@@ -54,7 +76,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/reducer-task",
   },
   {
-    id: 5,
+    id: 7,
     title: "TODO application ",
     description: "Here You can Add, Remove and Custom your Applications",
     image: todo,
@@ -63,7 +85,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/library-task",
   },
   {
-    id: 6,
+    id: 8,
     title: "Password reset authentication",
     description:
       "Here You can Register and login , If you forget the password you can click forgot password, link be sent to your mail and you can rest password",
@@ -73,7 +95,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/password-rest-flow-fe",
   },
   {
-    id: 7,
+    id: 9,
     title: "Weather forecast Apllication 2.0",
     description:
       "Here you can see all countries weather by search and convert them to celsius and fahrenheit",
@@ -83,7 +105,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/weather-app-forecast",
   },
   {
-    id: 8,
+    id: 10,
     title: "Weather application",
     description: "Here you can see all countries weather",
     image: weather,
@@ -92,7 +114,7 @@ const projects = [
     codeLink: "https://github.com/logeshbaskarlb/Weather-Project",
   },
   {
-    id: 9,
+    id: 11,
     title: "Random joke application",
     description: "Here you can see all random jokes",
     image: joke,
