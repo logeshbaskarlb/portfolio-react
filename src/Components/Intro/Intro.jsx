@@ -6,7 +6,7 @@ import logesh from "../../Images/Logesh.png";
 import Particles from "../../Particle/Particle";
 function Intro() {
   const resumeLink =
-    "https://drive.google.com/file/d/1WwrzUjeiFKyhXtD7JaHCtMszO-Id_0fh/view?usp=sharing";
+    "https://drive.google.com/file/d/112wqb5WdYnXXgmQDMZKcHF_2XKYrQhyZ/view?usp=sharing";
 
   return (
     <>
