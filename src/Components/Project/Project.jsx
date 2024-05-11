@@ -72,7 +72,7 @@ const projects = [
       "Here you can select product , add to your cart and total amount will be shown in the header section.",
     image: Ecommerce,
     technology: "React Js, Bootstrap, Redux",
-    demoLink: "https://timely-moonbeam-0dc073.netlify.app/  ",
+    demoLink: "https://timely-moonbeam-0dc073.netlify.app/",
     codeLink: "https://github.com/logeshbaskarlb/reducer-task",
   },
   {
