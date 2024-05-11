@@ -42,8 +42,8 @@ const projects = [
       "This application enables users to explore and purchase prosthetic products conveniently online.",
     image: store,
     technology: "React Js, Redux , MongoDB , Express JS, Node JS, STRIPE",
-    demoLink: "https://github.com/logeshbaskarlb/frontend-main",
-    codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
+    demoLink: "https://e-commercee-gym-store.netlify.app",
+    codeLink: "https://github.com/logeshbaskarlb/frontend-main",
   },
   {
     id: 4,
