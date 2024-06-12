@@ -24,6 +24,13 @@ function Navbar() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+ const handleActionClick = (navText) =>{
+  handleClose();
+  scroller.scrollTo(navText,{
+    smooth: true,
+  })
+ }
+
   return (
     <>
       <Box>
@@ -40,12 +47,7 @@ function Navbar() {
               key={action.name}
               icon={action.icon}
               tooltipTitle={action.name}
-              onClick={() => {
-                handleClose();
-                scroller.scrollTo(action.navText, {
-                  smooth: true,
-                });
-              }}
+              onClick={() => handleActionClick(action.navText) }
             />
           ))}
         </SpeedDial>
