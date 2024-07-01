@@ -12,12 +12,12 @@ function BoxComponent({ title, description,technology, image, demoLink, codeLink
        </div>
       <div className="bg-white">
         <h3 className="text-danger text-center">{title}</h3>
-        <p>{description}</p>
+        <p className="text-color">{description}</p>
        <p>
          <h6 className="text-danger text-center">
           Technologies : {" "}
           </h6>
-         <span className="text-center tech">
+         <span className="text-center text-color ">
            {technology}
           </span>
         </p>

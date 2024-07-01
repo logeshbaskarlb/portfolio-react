@@ -1,12 +1,6 @@
-.icon:hover {
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* Add shadow effect */
-  transition: filter 0.3s ease; /* Add a smooth transition effect */
-}
 
-/* Add a new CSS rule to match the color of the icon with the fill color */
-.icon:hover path {
-  fill: currentColor; /* Set the fill color to the current color (icon color) */
-}
+
+
 .linkss {
   text-decoration: none !important;
   color: white;
