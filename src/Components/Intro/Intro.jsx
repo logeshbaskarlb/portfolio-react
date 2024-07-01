@@ -87,9 +87,9 @@ function Intro() {
                 </a>
               </div>
             </div>
-            <div className="pt-4 row justify-content-center text-light hover">
+            <div className="pt-4 row justify-content-center hover">
               <button
-                className="btn glow-on-hover"
+                className="btn bg-white color"
                 onClick={() => window.open(resumeLink)}
               >
                 Resume

@@ -3,14 +3,14 @@ import "./Project.css";
 
 function BoxComponent({ title, description,technology, image, demoLink, codeLink }) {
   return (
-    <div className="bg-black project pt-2 rounded">
+    <div className="bg-white project pt-2 rounded">
     <div className="project-card bg-black">
       <img 
       src={image} 
       alt={title} 
       className="project-image" />
        </div>
-      <div className="bg-black">
+      <div className="bg-white">
         <h3 className="text-danger text-center">{title}</h3>
         <p>{description}</p>
        <p>
