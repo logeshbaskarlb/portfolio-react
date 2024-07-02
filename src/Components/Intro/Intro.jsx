@@ -1,18 +1,12 @@
 import React from "react";
-// import animation from "../../Images/animation.gif";
 import "./Intro.css";
 import { TypeAnimation } from "react-type-animation";
-// import logesh from "../../Images/Logesh.png";
-import Particles from "../../Particle/Particle";
 function Intro() {
   const resumeLink =
     "https://drive.google.com/file/d/1bTBxPl5na2mXpJj-cOgku3dDRI_cMsl4/view?usp=sharing";
 
   return (
     <>
-    <div>
-      <Particles />
-    </div>
       <section className="container hello d-flex justify-content-evenly align-items-center position-relative min-vh-100">
         <div className="row d-flex flex-wrap">
           <div
@@ -99,18 +93,12 @@ function Intro() {
           <div
             className="col text-center intro-image image hover-effect "
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
-            {/* <img
-              src={logesh}
-              alt="profile"
-              className="image hover-effect"
-              width={"320px"}
-            />{" "} */}
             <dotlottie-player
               src="https://lottie.host/8a99e13f-12e1-4d95-9965-080a160c84b7/hrUZBV2q8O.json"
               background="transparent"
-              speed="1"
+              speed="2"
               style={{ width: "350px", height: "350px" }}
               loop
               autoplay
