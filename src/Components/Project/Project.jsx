@@ -25,16 +25,16 @@ const projects = [
     demoLink: "https://jocular-torte-0b2695.netlify.app",
     codeLink: "https://github.com/logeshbaskarlb/create-portfolio",
   },
-  {
-    id: 2,
-    title: "G-Mail Clone",
-    description:
-      "This project aims to replicate the basic functionalities of Gmail, providing a platform for users to send, receive, organize, and manage emails.",
-    image: Gmail,
-    technology: "React Js, Bootstrap , MongoDB , Express JS, Node JS",
-    demoLink: "https://gmail-clone-basic.netlify.app/",
-    codeLink: "https://github.com/logeshbaskarlb/Gmail-Clone-FrontEnd-master",
-  },
+  // {
+  //   id: 2,
+  //   title: "G-Mail Clone",
+  //   description:
+  //     "This project aims to replicate the basic functionalities of Gmail, providing a platform for users to send, receive, organize, and manage emails.",
+  //   image: Gmail,
+  //   technology: "React Js, Bootstrap , MongoDB , Express JS, Node JS",
+  //   demoLink: "https://gmail-clone-basic.netlify.app/",
+  //   codeLink: "https://github.com/logeshbaskarlb/Gmail-Clone-FrontEnd-master",
+  // },
   {
     id: 3,
     title: "@Special Person E-Commerce",
