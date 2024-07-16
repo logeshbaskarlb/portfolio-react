@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Intro = () => {
   const resumeLink =
-    "https://drive.google.com/file/d/12C1ili58mD4_itZDN7LPsz0nPQNKetWA/view";
+    "https://drive.google.com/file/d/171gX5g-Y4R5-xFxYCJ_tsbG9UHjacGwr/view";
 
   const openResume = useCallback(() => {
     window.open(resumeLink);
