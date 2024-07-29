@@ -14,7 +14,7 @@ import git from "../../Assests/git(1).png";
 import github from "../../Assests/github.png";
 import redux from "../../Assests/redux.png";
 import mui from "../../Assests/mui.png";
-import tailwindcss from  "../../Assests/Tailwind.png"
+import tailwindcss from  "../../Assests/tailwind.jpeg"
 
 import vscode from "../../Assests/Tools/vs.png";
 import postman from "../../Assests/Tools/postman.png";
@@ -28,7 +28,7 @@ function ProfessionalSkills() {
       image: html,
       name: "HTML5",
       descript: "Markup language for web",
-      percent: 75,
+  
     },
     {
       image: css,
@@ -136,31 +136,31 @@ function ProfessionalSkills() {
     },
   ];
   return (
-    <div className="Profentire m-0 p-0" id="skills">
+    <div className="Profentire m-0 p-0" id="skills" style={{ backgroundColor: "#0A192F" }}> 
       <h1 className="text-center text-danger">Skills & Tools</h1>
       <div
         style={{
-          width: "100vw",
           justifyContent: "center",
           alignItems: "center",
           display: "flex",
+          backgroundColor: "#0A192F"
         }}
       >
         <div style={{ width: "100%" }}>
-          <Paper elevation={3}>
-            <h4 className="text-align-left d-flex p-3 ">
+          <Paper elevation={3} style={{ backgroundColor: "#0A192F" }}>
+            <h4 className="text-align-left d-flex p-3 text-white">
               Professional Skillset :
             </h4>
-            <div className="d-flex flex-wrap px-5 cardAlign " data-aos="fade-up" data-aos-duration="1000">
+            <div className="d-flex flex-wrap px-5 cardAlign gap-3 " data-aos="fade-up" data-aos-duration="1000">
               {skills.map((e) => {
                 return <CardComp  details={e} key={e.name} />;
               })}
             </div>
           </Paper>
           <br />
-          <Paper elevation={3}>
-            <h4 className="text-align-left d-flex p-3">Tools I used :</h4>
-            <div className="d-flex flex-wrap  px-5 cardAlign" data-aos="fade-up" data-aos-duration="1000">
+          <Paper elevation={3} style={{ backgroundColor: "#0A192F" }} >
+            <h4 className="text-align-left d-flex p-3 text-white">Tools I used :</h4>
+            <div className="d-flex flex-wrap justify-content-around px-5 cardAlign gap-3 " data-aos="fade-up" data-aos-duration="1000">
               {tools.map((e) => {
                 return <CardComp details={e} key={e.name} />;
               })}

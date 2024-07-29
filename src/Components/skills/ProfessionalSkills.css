@@ -1,9 +1,4 @@
-.Profentire{
-    width: 100%;
-    min-height:100vh;
-}   
-
-.react-sweet-progress-symbol{
-    color: blue !important;
-    /* border: 1px solid black; */
-}
+.card:hover {
+    transform: scale(1.05) !important;
+    cursor: pointer !important;
+  }
